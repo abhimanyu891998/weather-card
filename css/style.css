@@ -1,0 +1,57 @@
+html,body{
+  background-color : #eceff1;
+  height : 100%;
+}
+
+.container{
+  background-color: #eceff1;
+  padding-top: calc(50vh - 285px);
+}
+
+.card{
+    background-clip: padding-box;
+  border-radius: 2px 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 8px auto 16px;
+  max-width: 520px;
+   background-color: #009688;
+  color: #fff;
+  padding: 16px;
+
+}
+
+.weather_type::first-letter{
+  text-transform: capitalize;
+}
+
+#unit2{
+  text-decoration:none;
+  color: rgba(255,255,255,0.7);
+  font-weight: 400;
+  
+}
+
+#unit2:hover{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#c_icon:hover{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer{
+  padding: 0px;
+  font-size: 15px;
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+}
+
+#footer-link{
+  text-decoration: none;
+  color: #ECEFF1;
+}
